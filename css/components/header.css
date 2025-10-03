@@ -1,11 +1,11 @@
 /* header.css */
 .header {
     position: fixed;
-    top: 60px;
+    top: 3.75rem; /* 60px = 3.75rem */
     left: 50%;
     transform: translate(-50%);
-    width: calc(100% - 210px);
-    border-radius: 15px;
+    width: calc(100% - 13.125rem); /* 210px = 13.125rem */
+    border-radius: 0.9375rem; /* 15px = 0.9375rem */
     z-index: 999;
     display: flex;
     justify-content: space-between;
@@ -15,7 +15,7 @@
 }
 
 .logo img {
-    height: 78px;
+    height: 4.875rem; /* 78px = 4.875rem */
 }
 
 .nav-center ul {
@@ -44,7 +44,7 @@
 }
 
 .nav-right img {
-    height: 20px;
+    height: 1.25rem; /* 20px = 1.25rem */
 }
 
 .nav-right a:hover img {

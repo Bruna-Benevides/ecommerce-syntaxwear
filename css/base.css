@@ -5,26 +5,26 @@ body {
 }
 
 main{
-    padding: 2.5rem 0;
-    max-width: 1360px;
+    padding: 2.5rem 0 ;
+    max-width: 85rem; /* 1360px = 85rem */
     margin: 0 auto;
 }
 
 .btn {
     font-size: 1.25rem;
-    width: 161px;
-    height: 48px;
-    border-radius: 25px;
+    width: 10.06rem;   /* 161px = 10.06rem */
+    height: 3rem;      /* 48px = 3rem */
+    border-radius: 1.5625rem; /* 25px = 1.5625rem */
     color: #ffffff;
     font-weight: 400;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem; /* 10px 20px */
     transition: background-color 0.3s, border 0.3s;
 }
 
 .btn-outline {
     background-color: transparent;
-    border: 2px solid #ffffff;
-    line-height: 23px;
+    border: 0.125rem solid #ffffff; /* 2px = 0.125rem */
+    line-height: 1.4375rem; /* 23px = 1.4375rem */
 }
 
 .btn-filled {
