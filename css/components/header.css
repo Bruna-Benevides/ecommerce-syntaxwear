@@ -61,16 +61,15 @@
     align-items: center;
 }
 
-.menu-toggle {
-    display: none;
-}
-
 .menu-icon {
+    display: none;
     width: 30px;
     height: 30px;
-    display: none;
     cursor: pointer;
     z-index: 1001;
+}
+.menu-toggle {
+    display: none;
 }
 
 .menu-icon img {
@@ -83,7 +82,7 @@
     opacity: 0.7;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1279px) {
     .header {
         width: calc(100% - 40px);
     }
