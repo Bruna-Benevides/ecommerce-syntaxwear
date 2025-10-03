@@ -11,7 +11,7 @@
 
 .highlight {
     grid-area: highlight;
-    background-image: url(../../images/banners/hero.jpg);
+    background-image: url(../../images/products/card_imagem.jpg);
 }
 
 .sneaker-purple {
@@ -75,3 +75,23 @@
     display: flex;
     gap: 10px;
 }
+
+@media(max-width:768px){
+    .grid-section{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas: "highlight highlight" "sneaker-white sneaker-white" "model sneaker-color" "model sneaker-silver" "sneaker-purple sneaker-purple";
+
+        }
+        .highlight{
+            min-height: 500px;
+
+        }
+        .model{
+            min-height: 370px;
+        }
+        .sneaker-white , .sneaker-purple{
+            min-height: 190px;
+        }
+      
+    }

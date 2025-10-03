@@ -55,7 +55,7 @@
 }
 .footer-social span{
     display: block;
-    margin: 3.25rem 0 1rem 0 ; /* 52px = 3.25rem, 16px = 1rem */
+    margin: 1rem;
 }
 .footer-social ul{
     display: flex;
@@ -70,4 +70,24 @@
     font-size: 1.25rem;
     text-align: center;
     padding: 1.25rem 0; /* 20px = 1.25rem */
+}
+
+@media(max-width:1000px){
+    .footer-content{
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+    .footer-nav ul{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .footer-social ul{
+        gap: 1rem;
+    }
+
+    .footer-copy{
+        font-size: 1rem;
+        padding: 1.5rem 0 1.5rem
+    }
 }
