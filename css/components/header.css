@@ -5,7 +5,7 @@
     /* 60px = 3.75rem */
     left: 50%;
     transform: translate(-50%);
-    width: calc(100% - 210px);
+    width:1200px;
     border-radius:15px;
     z-index: 999;
     display: flex;
@@ -56,9 +56,11 @@
 
 .nav-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     align-items: center;
+    flex: 1;
+    margin-left: 10rem;
 }
 
 .menu-icon {
